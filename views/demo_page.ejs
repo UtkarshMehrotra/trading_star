@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title> Trading Star </title>
+  <link rel="stylesheet" href="/stylesheets/demo/demo_page.css" />
+  <link rel="stylesheet" href="https://js.arcgis.com/4.16/esri/themes/light/main.css" />
+  <script src="https://js.arcgis.com/4.16/"></script>
+  <script src="https://developers.arcgis.com/javascript/latest/sample-code/satellites-3d/live/satellite.js"></script>
+  <script src="/javascripts/maps/satellites.js" type="text/javascript"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBak6jPtlw0-LEwns1UnqnCNAuJo0hUBjU&callback=initMap"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="first">
+      <p id="third">&#x27A1;</p>
+    </div>
+    <div id="second"></div>
+    <div id="clear"></div>
+  </div>
+  <div id="floating-panel-container">
+    <div id="floating-panel">
+      <b>Start: </b>
+      <select id="start">
+        <option value="chicago, il">Chicago</option>
+        <option value="new york, ny">New York</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+      <b>End: </b>
+      <select id="end">
+        <option value="chicago, il">Chicago</option>
+        <option value="st louis, mo">St Louis</option>
+        <option value="joplin, mo">Joplin, MO</option>
+        <option value="oklahoma city, ok">Oklahoma City</option>
+        <option value="amarillo, tx">Amarillo</option>
+        <option value="gallup, nm">Gallup, NM</option>
+        <option value="flagstaff, az">Flagstaff, AZ</option>
+        <option value="winona, az">Winona</option>
+        <option value="kingman, az">Kingman</option>
+        <option value="barstow, ca">Barstow</option>
+        <option value="san bernardino, ca">San Bernardino</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+    </div>
+  </div>
+</body>
+
+</html>
